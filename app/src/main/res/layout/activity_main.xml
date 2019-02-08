@@ -1,0 +1,239 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    tools:context=".MainActivity">
+
+
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal">
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="10dp"
+            android:layout_weight="1"
+            android:orientation="vertical">
+
+            <TextView
+                android:id="@+id/txt_bet"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginLeft="15dp"
+                android:layout_weight="1"
+                android:text="@string/app_name"
+                android:textColor="@android:color/black"
+                android:textSize="20sp" />
+
+            <TextView
+                android:id="@+id/txt_login"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginLeft="15dp"
+                android:layout_weight="1"
+                android:text="@string/str_txtlogout"
+                android:textColor="@android:color/holo_red_dark"
+                android:textSize="16sp" />
+        </LinearLayout>
+
+        <Button
+            android:id="@+id/btn_search"
+            android:layout_width="@dimen/btn_icon_size"
+            android:layout_height="@dimen/btn_icon_size"
+            android:layout_gravity="center_vertical"
+            android:layout_marginLeft="@dimen/btn_lrmargin_size"
+            android:layout_marginRight="@dimen/btn_lrmargin_size"
+            android:background="@drawable/icon_search" />
+
+        <Button
+            android:id="@+id/btn_setting"
+            android:layout_width="@dimen/btn_icon_size"
+            android:layout_height="@dimen/btn_icon_size"
+            android:layout_gravity="center_vertical"
+            android:layout_marginLeft="@dimen/btn_lrmargin_size"
+            android:layout_marginRight="@dimen/btn_lrmargin_size"
+            android:background="@drawable/icon_setting" />
+
+        <Button
+            android:id="@+id/btn_share"
+            android:layout_width="@dimen/btn_icon_size"
+            android:layout_height="@dimen/btn_icon_size"
+            android:layout_gravity="center_vertical"
+            android:layout_marginLeft="@dimen/btn_lrmargin_size"
+            android:layout_marginRight="@dimen/btn_lrmargin_size"
+            android:background="@drawable/icon_share"
+            android:layoutDirection="locale" />
+
+    </LinearLayout>
+
+    <TableRow
+        android:layout_width="match_parent"
+        android:layout_height="1dp"
+        android:background="@drawable/background_with_shadow" />
+
+    <Button
+        android:id="@+id/btn_login"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginBottom="@dimen/btn_tbmargin_size"
+        android:layout_marginLeft="@dimen/btn_lrmargin_size"
+        android:layout_marginRight="@dimen/btn_lrmargin_size"
+        android:layout_marginTop="6dp"
+        android:background="@drawable/round_button_normal"
+        android:text="@string/str_login"
+        android:textSize="18sp" />
+
+    <Button
+        android:id="@+id/btn_allevents"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginBottom="@dimen/btn_tbmargin_size"
+        android:layout_marginLeft="@dimen/btn_lrmargin_size"
+        android:layout_marginRight="@dimen/btn_lrmargin_size"
+        android:layout_marginTop="@dimen/btn_tbmargin_size"
+        android:background="@drawable/round_button_normal"
+        android:textSize="18sp"
+        android:text="@string/str_allevents" />
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal">
+
+        <Button
+            android:id="@+id/btn_inplay"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginBottom="@dimen/btn_tbmargin_size"
+            android:layout_marginLeft="@dimen/btn_lrmargin_size"
+            android:layout_marginRight="1dp"
+            android:layout_marginTop="@dimen/btn_tbmargin_size"
+            android:layout_weight="0.5"
+            android:background="@drawable/round_button_normal"
+            android:drawableRight="@drawable/img_down"
+            android:text="@string/str_inplay"
+            android:textSize="18sp" />
+
+        <Button
+            android:id="@+id/btn_inplaysoon"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginBottom="@dimen/btn_tbmargin_size"
+            android:layout_marginLeft="1dp"
+            android:layout_marginRight="@dimen/btn_lrmargin_size"
+            android:layout_marginTop="@dimen/btn_tbmargin_size"
+            android:layout_weight="0.5"
+            android:background="@drawable/round_button_normal"
+            android:drawableRight="@drawable/img_down"
+            android:text="@string/str_inplaysoon"
+            android:textSize="18sp" />
+
+    </LinearLayout>
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal">
+
+        <Button
+            android:id="@+id/btn_today"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginBottom="@dimen/btn_tbmargin_size"
+            android:layout_marginLeft="@dimen/btn_lrmargin_size"
+            android:layout_marginRight="1dp"
+            android:layout_marginTop="@dimen/btn_tbmargin_size"
+            android:layout_weight="0.5"
+            android:background="@drawable/round_button_normal"
+            android:textSize="18sp"
+            android:text="@string/str_today" />
+
+        <Button
+            android:id="@+id/btn_tomorrow"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginBottom="@dimen/btn_tbmargin_size"
+            android:layout_marginLeft="1dp"
+            android:layout_marginRight="@dimen/btn_lrmargin_size"
+            android:layout_marginTop="@dimen/btn_tbmargin_size"
+            android:layout_weight="0.5"
+            android:background="@drawable/round_button_normal"
+            android:textSize="18sp"
+            android:text="@string/str_tomorrow" />
+    </LinearLayout>
+
+    <Button
+        android:id="@+id/btn_myaccount"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginBottom="@dimen/btn_tbmargin_size"
+        android:layout_marginLeft="@dimen/btn_lrmargin_size"
+        android:layout_marginRight="@dimen/btn_lrmargin_size"
+        android:layout_marginTop="@dimen/btn_tbmargin_size"
+        android:background="@drawable/round_button_normal"
+        android:textSize="18sp"
+        android:text="@string/str_myaccount" />
+
+    <Button
+        android:id="@+id/btn_mybets"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginBottom="@dimen/btn_tbmargin_size"
+        android:layout_marginLeft="@dimen/btn_lrmargin_size"
+        android:layout_marginRight="@dimen/btn_lrmargin_size"
+        android:layout_marginTop="@dimen/btn_tbmargin_size"
+        android:background="@drawable/round_button_normal"
+        android:textSize="18sp"
+        android:text="@string/str_mybets" />
+
+    <Button
+        android:id="@+id/btn_betss"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginBottom="@dimen/btn_tbmargin_size"
+        android:layout_marginLeft="@dimen/btn_lrmargin_size"
+        android:layout_marginRight="@dimen/btn_lrmargin_size"
+        android:layout_marginTop="@dimen/btn_tbmargin_size"
+        android:background="@drawable/round_button_normal"
+        android:textSize="18sp"
+        android:text="@string/str_betfss" />
+
+    <Button
+        android:id="@+id/btn_cbeta"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginBottom="@dimen/btn_tbmargin_size"
+        android:layout_marginLeft="@dimen/btn_lrmargin_size"
+        android:layout_marginRight="@dimen/btn_lrmargin_size"
+        android:layout_marginTop="@dimen/btn_tbmargin_size"
+        android:background="@drawable/round_button_normal"
+        android:drawableTop="@drawable/img_betfair"
+        android:text="@string/str_cbeta"
+        android:textSize="18sp" />
+
+    <Button
+        android:id="@+id/btn_logout"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginBottom="@dimen/btn_tbmargin_size"
+        android:layout_marginLeft="@dimen/btn_lrmargin_size"
+        android:layout_marginRight="@dimen/btn_lrmargin_size"
+        android:layout_marginTop="@dimen/btn_tbmargin_size"
+        android:background="@drawable/round_button_normal"
+        android:textSize="18sp"
+        android:text="@string/str_logout" />
+
+    <TextView
+        android:id="@+id/textView"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:autoLink="web|email|phone|map|all"
+        android:clickable="true"
+        android:text="gambleaware.co.uk" />
+</LinearLayout>

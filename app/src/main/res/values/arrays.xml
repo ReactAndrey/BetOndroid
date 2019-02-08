@@ -1,0 +1,36 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string-array name="cancel_at_inplay">
+        <item>Keep at InPlay</item>
+        <item>Cancel at InPlay</item>
+        <item>Take SP</item>
+    </string-array>
+    <array name="prices_refresh_rate">
+        <item>0.5 sec</item>
+        <item>1 sec</item>
+        <item>3 sec</item>
+        <item>5 sec</item>
+        <item>10 sec</item>
+    </array>
+    <array name="prices_cell_height">
+        <item>Smallest</item>
+        <item>Small</item>
+        <item>Normal</item>
+        <item>Tall</item>
+        <item>Tallest</item>
+    </array>
+    <array name="market_language">
+        <item>My Betfair account lang</item>
+        <item>Dansk</item>
+        <item>Deutsch</item>
+        <item>Dutch</item>
+        <item>English</item>
+        <item>Exxxxxx</item>
+        <item>Espanol</item>
+        <item>French</item>
+        <item>Italiano</item>
+        <item>Portugues</item>
+        <item>Pyccknn</item>
+        <item>Svenska</item>
+    </array>
+</resources>

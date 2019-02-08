@@ -1,0 +1,24 @@
+<?xml version="1.0" encoding="utf-8"?>
+<android.support.constraint.ConstraintLayout
+    xmlns:android="http://schemas.android.com/apk/res/android" android:layout_width="match_parent"
+    android:layout_height="match_parent">
+
+        <RadioButton
+            android:id="@+id/radioButton2"
+            android:layout_width="125dp"
+            android:layout_height="match_parent"
+            android:layout_gravity="center_horizontal"
+            android:layout_weight="1"
+            android:gravity="right|center_vertical"
+            android:layoutDirection="rtl"
+            android:maxWidth="50dp"
+            android:minHeight="80dp"
+            android:text="Pakistan..."
+            android:textSize="20sp" />
+
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="1dp"
+            android:layout_weight="1"
+            android:background="@android:color/darker_gray" />
+</android.support.constraint.ConstraintLayout>

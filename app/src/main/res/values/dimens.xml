@@ -1,0 +1,10 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <dimen name="btn_lrmargin_size">5dp</dimen>
+    <dimen name="btn_tbmargin_size">3dp</dimen>
+    <dimen name="btn_icon_width">35dp</dimen>
+    <dimen name="btn_icon_size">35dp</dimen>
+    <dimen name="txtiheight">52dp</dimen>
+    <dimen name="txtiwidth">63dp</dimen>
+
+</resources>

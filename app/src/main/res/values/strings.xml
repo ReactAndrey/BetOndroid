@@ -1,0 +1,25 @@
+<resources>
+    <string name="app_name">BetOnDroid</string>
+    <string name="str_login">Login</string>
+    <string name="str_allevents">All Events</string>
+    <string name="str_inplay">Inplay</string>
+    <string name="str_inplaysoon">Inplay Soon</string>
+    <string name="str_today">Today</string>
+    <string name="str_tomorrow">Tomorrow</string>
+    <string name="str_myaccount">My Account</string>
+    <string name="str_mybets">My Bets</string>
+    <string name="str_betfss">Betfair Servers Status</string>
+    <string name="str_cbeta">Create Betfair Account</string>
+    <string name="str_logout">Logout</string>
+    <string name="str_txtlogout">Not logged in</string>
+
+
+    <string name="str_liablity">Liability:</string>
+    <string name="str_persistence">Persistence:</string>
+    <string name="str_size">Size:</string>
+    <string name="str_price">Price:</string>
+    <string name="str_btnupdatep">Update persistence</string>
+    <string name="str_btnupdatesize">Update size</string>
+    <string name="str_btnupdateprice">Update pricce</string>
+    <string name="str_btndiscard">Discard</string>
+</resources>
